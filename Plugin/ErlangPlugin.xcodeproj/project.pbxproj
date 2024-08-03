@@ -226,9 +226,17 @@
 /* Begin PBXProject section */
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 4E59BBEA08A8196C001206A8 /* Build configuration list for PBXProject "ErlangPlugin" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+				English,
+			);
 			mainGroup = 089C166AFE841209C02AAC07 /* SEStudioEnabler */;
 			projectDirPath = "";
 			projectRoot = "";

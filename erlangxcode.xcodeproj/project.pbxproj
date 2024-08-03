@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXFileReference section */
+		411B07EC2C5E9C9E006CE2C3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		411B07ED2C5E9CAC006CE2C3 /* XCPBuildSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCPBuildSystem.h; sourceTree = "<group>"; };
+		411B07EE2C5E9CAC006CE2C3 /* XCPBuildSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCPBuildSystem.m; sourceTree = "<group>"; };
+		411B07EF2C5E9CAC006CE2C3 /* XCPDependencyGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCPDependencyGraph.h; sourceTree = "<group>"; };
+		411B07F02C5E9CAC006CE2C3 /* XCPOutputParsing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCPOutputParsing.h; sourceTree = "<group>"; };
+		411B07F12C5E9CAC006CE2C3 /* XCPSourceParsing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCPSourceParsing.h; sourceTree = "<group>"; };
+		411B07F22C5E9CAC006CE2C3 /* XCPSpecifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCPSpecifications.h; sourceTree = "<group>"; };
+		411B07F32C5E9CAC006CE2C3 /* XCPSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCPSupport.h; sourceTree = "<group>"; };
+		411B07F52C5E9CAC006CE2C3 /* copyresources.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = copyresources.rb; sourceTree = "<group>"; };
+		411B07F62C5E9CAC006CE2C3 /* Erlang Architecture.xcspec */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xcspec; path = "Erlang Architecture.xcspec"; sourceTree = "<group>"; };
+		411B07F72C5E9CAC006CE2C3 /* Erlang BuildRules.xcbuildrules */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xcbuildrules; path = "Erlang BuildRules.xcbuildrules"; sourceTree = "<group>"; };
+		411B07F82C5E9CAC006CE2C3 /* Erlang Compiler.xcspec */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xcspec; path = "Erlang Compiler.xcspec"; sourceTree = "<group>"; };
+		411B07F92C5E9CAC006CE2C3 /* Erlang FileTypes.xcspec */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xcspec; path = "Erlang FileTypes.xcspec"; sourceTree = "<group>"; };
+		411B07FA2C5E9CAC006CE2C3 /* Erlang Language.xclangspec */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xclangspec; path = "Erlang Language.xclangspec"; sourceTree = "<group>"; };
+		411B07FB2C5E9CAC006CE2C3 /* Erlang Macros.xctxtmacro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xctxtmacro; path = "Erlang Macros.xctxtmacro"; sourceTree = "<group>"; };
+		411B07FC2C5E9CAC006CE2C3 /* Erlang PackageTypes.xcspec */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xcspec; path = "Erlang PackageTypes.xcspec"; sourceTree = "<group>"; };
+		411B07FD2C5E9CAC006CE2C3 /* Erlang ProductTypes.xcspec */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xcspec; path = "Erlang ProductTypes.xcspec"; sourceTree = "<group>"; };
+		411B07FE2C5E9CAC006CE2C3 /* Erlang Syntax.xcsynspec */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xcsynspec; path = "Erlang Syntax.xcsynspec"; sourceTree = "<group>"; };
+		411B07FF2C5E9CAC006CE2C3 /* Erlang Tools.xcspec */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xcspec; path = "Erlang Tools.xcspec"; sourceTree = "<group>"; };
+		411B08002C5E9CAC006CE2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		411B08012C5E9CAC006CE2C3 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		411B08032C5E9CAC006CE2C3 /* Nitrogen Framework.xctxtmacro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xctxtmacro; path = "Nitrogen Framework.xctxtmacro"; sourceTree = "<group>"; };
+		411B08052C5E9CAC006CE2C3 /* ErlangPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ErlangPlugin.h; sourceTree = "<group>"; };
+		411B08062C5E9CAC006CE2C3 /* ErlangPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ErlangPlugin.m; sourceTree = "<group>"; };
+		411B08072C5E9CAC006CE2C3 /* EXCompilerSpecificationErlc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXCompilerSpecificationErlc.h; sourceTree = "<group>"; };
+		411B08082C5E9CAC006CE2C3 /* EXCompilerSpecificationErlc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXCompilerSpecificationErlc.m; sourceTree = "<group>"; };
+		411B080A2C5E9CAC006CE2C3 /* ErlangPlugin.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ErlangPlugin.xcodeproj; sourceTree = "<group>"; };
+		411B08112C5E9CBA006CE2C3 /* file.erl */ = {isa = PBXFileReference; lastKnownFileType = text; path = file.erl; sourceTree = "<group>"; };
+		411B08122C5E9CBA006CE2C3 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		411B08142C5E9CBA006CE2C3 /* file.erl */ = {isa = PBXFileReference; lastKnownFileType = text; path = file.erl; sourceTree = "<group>"; };
+		411B08152C5E9CBA006CE2C3 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		411B08172C5E9CBA006CE2C3 /* file.erl */ = {isa = PBXFileReference; lastKnownFileType = text; path = file.erl; sourceTree = "<group>"; };
+		411B08182C5E9CBA006CE2C3 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		411B081A2C5E9CBA006CE2C3 /* file.erl */ = {isa = PBXFileReference; lastKnownFileType = text; path = file.erl; sourceTree = "<group>"; };
+		411B081B2C5E9CBA006CE2C3 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		411B081D2C5E9CBA006CE2C3 /* file.erl */ = {isa = PBXFileReference; lastKnownFileType = text; path = file.erl; sourceTree = "<group>"; };
+		411B081E2C5E9CBA006CE2C3 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		411B08202C5E9CBA006CE2C3 /* file.erl */ = {isa = PBXFileReference; lastKnownFileType = text; path = file.erl; sourceTree = "<group>"; };
+		411B08212C5E9CBA006CE2C3 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		411B08252C5E9CBA006CE2C3 /* EmptyErlangApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = EmptyErlangApp.xcodeproj; sourceTree = "<group>"; };
+		411B08292C5E9CBA006CE2C3 /* Erlang Target.trgttmpl */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Erlang Target.trgttmpl"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		411B07F42C5E9CAC006CE2C3 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				411B07ED2C5E9CAC006CE2C3 /* XCPBuildSystem.h */,
+				411B07EE2C5E9CAC006CE2C3 /* XCPBuildSystem.m */,
+				411B07EF2C5E9CAC006CE2C3 /* XCPDependencyGraph.h */,
+				411B07F02C5E9CAC006CE2C3 /* XCPOutputParsing.h */,
+				411B07F12C5E9CAC006CE2C3 /* XCPSourceParsing.h */,
+				411B07F22C5E9CAC006CE2C3 /* XCPSpecifications.h */,
+				411B07F32C5E9CAC006CE2C3 /* XCPSupport.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		411B08042C5E9CAC006CE2C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				411B07F52C5E9CAC006CE2C3 /* copyresources.rb */,
+				411B07F62C5E9CAC006CE2C3 /* Erlang Architecture.xcspec */,
+				411B07F72C5E9CAC006CE2C3 /* Erlang BuildRules.xcbuildrules */,
+				411B07F82C5E9CAC006CE2C3 /* Erlang Compiler.xcspec */,
+				411B07F92C5E9CAC006CE2C3 /* Erlang FileTypes.xcspec */,
+				411B07FA2C5E9CAC006CE2C3 /* Erlang Language.xclangspec */,
+				411B07FB2C5E9CAC006CE2C3 /* Erlang Macros.xctxtmacro */,
+				411B07FC2C5E9CAC006CE2C3 /* Erlang PackageTypes.xcspec */,
+				411B07FD2C5E9CAC006CE2C3 /* Erlang ProductTypes.xcspec */,
+				411B07FE2C5E9CAC006CE2C3 /* Erlang Syntax.xcsynspec */,
+				411B07FF2C5E9CAC006CE2C3 /* Erlang Tools.xcspec */,
+				411B08002C5E9CAC006CE2C3 /* Info.plist */,
+				411B08022C5E9CAC006CE2C3 /* InfoPlist.strings */,
+				411B08032C5E9CAC006CE2C3 /* Nitrogen Framework.xctxtmacro */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		411B08092C5E9CAC006CE2C3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				411B08052C5E9CAC006CE2C3 /* ErlangPlugin.h */,
+				411B08062C5E9CAC006CE2C3 /* ErlangPlugin.m */,
+				411B08072C5E9CAC006CE2C3 /* EXCompilerSpecificationErlc.h */,
+				411B08082C5E9CAC006CE2C3 /* EXCompilerSpecificationErlc.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		411B080B2C5E9CAC006CE2C3 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				411B07F42C5E9CAC006CE2C3 /* Headers */,
+				411B08042C5E9CAC006CE2C3 /* Resources */,
+				411B08092C5E9CAC006CE2C3 /* Source */,
+				411B080A2C5E9CAC006CE2C3 /* ErlangPlugin.xcodeproj */,
+			);
+			path = Plugin;
+			sourceTree = "<group>";
+		};
+		411B08132C5E9CBA006CE2C3 /* Erlang gen_event module.pbfiletemplate */ = {
+			isa = PBXGroup;
+			children = (
+				411B08112C5E9CBA006CE2C3 /* file.erl */,
+				411B08122C5E9CBA006CE2C3 /* TemplateInfo.plist */,
+			);
+			path = "Erlang gen_event module.pbfiletemplate";
+			sourceTree = "<group>";
+		};
+		411B08162C5E9CBA006CE2C3 /* Erlang gen_fsm module.pbfiletemplate */ = {
+			isa = PBXGroup;
+			children = (
+				411B08142C5E9CBA006CE2C3 /* file.erl */,
+				411B08152C5E9CBA006CE2C3 /* TemplateInfo.plist */,
+			);
+			path = "Erlang gen_fsm module.pbfiletemplate";
+			sourceTree = "<group>";
+		};
+		411B08192C5E9CBA006CE2C3 /* Erlang gen_server module.pbfiletemplate */ = {
+			isa = PBXGroup;
+			children = (
+				411B08172C5E9CBA006CE2C3 /* file.erl */,
+				411B08182C5E9CBA006CE2C3 /* TemplateInfo.plist */,
+			);
+			path = "Erlang gen_server module.pbfiletemplate";
+			sourceTree = "<group>";
+		};
+		411B081C2C5E9CBA006CE2C3 /* Erlang module.pbfiletemplate */ = {
+			isa = PBXGroup;
+			children = (
+				411B081A2C5E9CBA006CE2C3 /* file.erl */,
+				411B081B2C5E9CBA006CE2C3 /* TemplateInfo.plist */,
+			);
+			path = "Erlang module.pbfiletemplate";
+			sourceTree = "<group>";
+		};
+		411B081F2C5E9CBA006CE2C3 /* Erlang supervisor module.pbfiletemplate */ = {
+			isa = PBXGroup;
+			children = (
+				411B081D2C5E9CBA006CE2C3 /* file.erl */,
+				411B081E2C5E9CBA006CE2C3 /* TemplateInfo.plist */,
+			);
+			path = "Erlang supervisor module.pbfiletemplate";
+			sourceTree = "<group>";
+		};
+		411B08222C5E9CBA006CE2C3 /* Nitrogen web module.pbfiletemplate */ = {
+			isa = PBXGroup;
+			children = (
+				411B08202C5E9CBA006CE2C3 /* file.erl */,
+				411B08212C5E9CBA006CE2C3 /* TemplateInfo.plist */,
+			);
+			path = "Nitrogen web module.pbfiletemplate";
+			sourceTree = "<group>";
+		};
+		411B08232C5E9CBA006CE2C3 /* Erlang */ = {
+			isa = PBXGroup;
+			children = (
+				411B08132C5E9CBA006CE2C3 /* Erlang gen_event module.pbfiletemplate */,
+				411B08162C5E9CBA006CE2C3 /* Erlang gen_fsm module.pbfiletemplate */,
+				411B08192C5E9CBA006CE2C3 /* Erlang gen_server module.pbfiletemplate */,
+				411B081C2C5E9CBA006CE2C3 /* Erlang module.pbfiletemplate */,
+				411B081F2C5E9CBA006CE2C3 /* Erlang supervisor module.pbfiletemplate */,
+				411B08222C5E9CBA006CE2C3 /* Nitrogen web module.pbfiletemplate */,
+			);
+			path = Erlang;
+			sourceTree = "<group>";
+		};
+		411B08242C5E9CBA006CE2C3 /* File Templates */ = {
+			isa = PBXGroup;
+			children = (
+				411B08232C5E9CBA006CE2C3 /* Erlang */,
+			);
+			path = "File Templates";
+			sourceTree = "<group>";
+		};
+		411B08262C5E9CBA006CE2C3 /* Empty Erlang App */ = {
+			isa = PBXGroup;
+			children = (
+				411B08252C5E9CBA006CE2C3 /* EmptyErlangApp.xcodeproj */,
+			);
+			path = "Empty Erlang App";
+			sourceTree = "<group>";
+		};
+		411B08272C5E9CBA006CE2C3 /* Erlang */ = {
+			isa = PBXGroup;
+			children = (
+				411B08262C5E9CBA006CE2C3 /* Empty Erlang App */,
+			);
+			path = Erlang;
+			sourceTree = "<group>";
+		};
+		411B08282C5E9CBA006CE2C3 /* Project Templates */ = {
+			isa = PBXGroup;
+			children = (
+				411B08272C5E9CBA006CE2C3 /* Erlang */,
+			);
+			path = "Project Templates";
+			sourceTree = "<group>";
+		};
+		411B082A2C5E9CBA006CE2C3 /* Erlang */ = {
+			isa = PBXGroup;
+			children = (
+				411B08292C5E9CBA006CE2C3 /* Erlang Target.trgttmpl */,
+			);
+			path = Erlang;
+			sourceTree = "<group>";
+		};
+		411B082B2C5E9CBA006CE2C3 /* Target Templates */ = {
+			isa = PBXGroup;
+			children = (
+				411B082A2C5E9CBA006CE2C3 /* Erlang */,
+			);
+			path = "Target Templates";
+			sourceTree = "<group>";
+		};
+		411B082C2C5E9CBA006CE2C3 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				411B08242C5E9CBA006CE2C3 /* File Templates */,
+				411B08282C5E9CBA006CE2C3 /* Project Templates */,
+				411B082B2C5E9CBA006CE2C3 /* Target Templates */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		411B082D2C5E9CBA006CE2C3 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41A612C92C5E9C67001449E2 = {
+			isa = PBXGroup;
+			children = (
+				411B07EC2C5E9C9E006CE2C3 /* README.md */,
+				411B080B2C5E9CAC006CE2C3 /* Plugin */,
+				411B082C2C5E9CBA006CE2C3 /* Templates */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		41A612CA2C5E9C67001449E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 41A612CD2C5E9C67001449E2 /* Build configuration list for PBXProject "erlangxcode" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				English,
+			);
+			mainGroup = 41A612C92C5E9C67001449E2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 411B082D2C5E9CBA006CE2C3 /* Products */;
+					ProjectRef = 411B08252C5E9CBA006CE2C3 /* EmptyErlangApp.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXVariantGroup section */
+		411B08022C5E9CAC006CE2C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				411B08012C5E9CAC006CE2C3 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41A612CE2C5E9C67001449E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		41A612CF2C5E9C67001449E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41A612CD2C5E9C67001449E2 /* Build configuration list for PBXProject "erlangxcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A612CE2C5E9C67001449E2 /* Debug */,
+				41A612CF2C5E9C67001449E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41A612CA2C5E9C67001449E2 /* Project object */;
+}
